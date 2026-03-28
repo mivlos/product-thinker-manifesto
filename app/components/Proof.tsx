@@ -136,10 +136,10 @@ export default function Proof() {
             className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#f5f0e8] mb-6"
             style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
           >
-            7 Weeks. One Person. <span className="text-[#d4a053]">10 Projects.</span>
+            4 Days. One Person. <span className="text-[#d4a053]">10 Projects.</span>
           </h2>
           <p className="text-lg text-[#9a9590] max-w-2xl mx-auto">
-            That&apos;s the output of a small product team&apos;s quarterly roadmap. One person. Seven weeks. Every project live and working.
+            From Tuesday evening to Saturday. That&apos;s a small product team&apos;s quarterly roadmap — shipped in four days. One person. One AI partner. Every project live and working.
           </p>
         </motion.div>
 
@@ -147,7 +147,7 @@ export default function Proof() {
         <div className="grid grid-cols-3 gap-6 mb-16">
           {[
             { value: 10, suffix: "", label: "Projects shipped" },
-            { value: 7, suffix: "", label: "Weeks elapsed" },
+            { value: 4, suffix: "", label: "Days elapsed" },
             { value: 1, suffix: "", label: "Person + AI" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
